@@ -34,8 +34,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     func noCamera(){
         let alertVC = UIAlertController(
-            title: "There is No Camera",
-            message: "Sorry, this device really has no camera",
+            title: "haha sorry No Camera",
+            message: "Sorry, this device has no camera",
             preferredStyle: .alert)
         let okAction = UIAlertAction(
             title: "OK",
@@ -52,8 +52,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         picker.allowsEditing = false
         picker.sourceType = .photoLibrary
         picker.mediaTypes = UIImagePickerController.availableMediaTypes(for: .photoLibrary)!
+        picker.modalPresentationStyle = .popover
         present(picker, animated: true, completion: nil)
-        
+        picker.popoverPresentationController?.barButtonItem = sender
 }
 
     
@@ -67,18 +68,33 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    //MARK: - Delegates
-   private func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
-        let chosenImage = info[UIImagePickerControllerOriginalImage] as! UIImage //2
-        myImageView.contentMode = .scaleAspectFit //3
-        myImageView.image = chosenImage //4
-        dismiss(animated: true, completion: nil) //5
+    
+    public func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]){
+        if let image = info[UIImagePickerControllerEditedImage] as? UIImage {
+            myImageView.image = image
+        }
+        else if let image = info[UIImagePickerControllerOriginalImage] as? UIImage {
+            myImageView.image = image
+        } else{
+            print("Something went wrong")
+        }
+        
+        self.dismiss(animated: true, completion: nil)
     }
     
+    
+/*
+    //MARK: - Delegates
+   private func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
+    var  chosenImage = UIImage()
+    chosenImage = info[UIImagePickerControllerOriginalImage] as! UIImage //2
+    myImageView.contentMode = .scaleAspectFit //3
+    myImageView.image = chosenImage //4
+    dismiss(animated:true, completion: nil) //5
+    }
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         dismiss(animated: true, completion: nil)
-    }
+    } */
 
 }
 
