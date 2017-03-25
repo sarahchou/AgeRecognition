@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -193,25 +193,22 @@
 				TargetAttributes = {
 					08B75A4F1E86071D0080BDC3 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = Y29794HLQS;
 						ProvisioningStyle = Automatic;
 					};
 					08B75A631E86071E0080BDC3 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = Y29794HLQS;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 08B75A4F1E86071D0080BDC3;
 					};
 					08B75A6E1E86071E0080BDC3 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = Y29794HLQS;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 08B75A4F1E86071D0080BDC3;
 					};
 				};
 			};
 			buildConfigurationList = 08B75A4B1E86071D0080BDC3 /* Build configuration list for PBXProject "AgeRecognition" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
