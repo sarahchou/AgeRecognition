@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08B75A541E86071E0080BDC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B75A531E86071E0080BDC3 /* AppDelegate.swift */; };
+		08B75A561E86071E0080BDC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B75A551E86071E0080BDC3 /* ViewController.swift */; };
+		08B75A591E86071E0080BDC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08B75A571E86071E0080BDC3 /* Main.storyboard */; };
+		08B75A5B1E86071E0080BDC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08B75A5A1E86071E0080BDC3 /* Assets.xcassets */; };
+		08B75A5E1E86071E0080BDC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08B75A5C1E86071E0080BDC3 /* LaunchScreen.storyboard */; };
+		08B75A691E86071E0080BDC3 /* AgeRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B75A681E86071E0080BDC3 /* AgeRecognitionTests.swift */; };
+		08B75A741E86071E0080BDC3 /* AgeRecognitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B75A731E86071E0080BDC3 /* AgeRecognitionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08B75A651E86071E0080BDC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08B75A481E86071D0080BDC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08B75A4F1E86071D0080BDC3;
+			remoteInfo = AgeRecognition;
+		};
+		08B75A701E86071E0080BDC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08B75A481E86071D0080BDC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08B75A4F1E86071D0080BDC3;
+			remoteInfo = AgeRecognition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08B75A501E86071E0080BDC3 /* AgeRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgeRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08B75A531E86071E0080BDC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08B75A551E86071E0080BDC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08B75A581E86071E0080BDC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08B75A5A1E86071E0080BDC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08B75A5D1E86071E0080BDC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08B75A5F1E86071E0080BDC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08B75A641E86071E0080BDC3 /* AgeRecognitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgeRecognitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08B75A681E86071E0080BDC3 /* AgeRecognitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeRecognitionTests.swift; sourceTree = "<group>"; };
+		08B75A6A1E86071E0080BDC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08B75A6F1E86071E0080BDC3 /* AgeRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgeRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08B75A731E86071E0080BDC3 /* AgeRecognitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeRecognitionUITests.swift; sourceTree = "<group>"; };
+		08B75A751E86071E0080BDC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08B75A4D1E86071D0080BDC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08B75A611E86071E0080BDC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08B75A6C1E86071E0080BDC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08B75A471E86071D0080BDC3 = {
+			isa = PBXGroup;
+			children = (
+				08B75A521E86071E0080BDC3 /* AgeRecognition */,
+				08B75A671E86071E0080BDC3 /* AgeRecognitionTests */,
+				08B75A721E86071E0080BDC3 /* AgeRecognitionUITests */,
+				08B75A511E86071E0080BDC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08B75A511E86071E0080BDC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08B75A501E86071E0080BDC3 /* AgeRecognition.app */,
+				08B75A641E86071E0080BDC3 /* AgeRecognitionTests.xctest */,
+				08B75A6F1E86071E0080BDC3 /* AgeRecognitionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08B75A521E86071E0080BDC3 /* AgeRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				08B75A531E86071E0080BDC3 /* AppDelegate.swift */,
+				08B75A551E86071E0080BDC3 /* ViewController.swift */,
+				08B75A571E86071E0080BDC3 /* Main.storyboard */,
+				08B75A5A1E86071E0080BDC3 /* Assets.xcassets */,
+				08B75A5C1E86071E0080BDC3 /* LaunchScreen.storyboard */,
+				08B75A5F1E86071E0080BDC3 /* Info.plist */,
+			);
+			path = AgeRecognition;
+			sourceTree = "<group>";
+		};
+		08B75A671E86071E0080BDC3 /* AgeRecognitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				08B75A681E86071E0080BDC3 /* AgeRecognitionTests.swift */,
+				08B75A6A1E86071E0080BDC3 /* Info.plist */,
+			);
+			path = AgeRecognitionTests;
+			sourceTree = "<group>";
+		};
+		08B75A721E86071E0080BDC3 /* AgeRecognitionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08B75A731E86071E0080BDC3 /* AgeRecognitionUITests.swift */,
+				08B75A751E86071E0080BDC3 /* Info.plist */,
+			);
+			path = AgeRecognitionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08B75A4F1E86071D0080BDC3 /* AgeRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08B75A781E86071E0080BDC3 /* Build configuration list for PBXNativeTarget "AgeRecognition" */;
+			buildPhases = (
+				08B75A4C1E86071D0080BDC3 /* Sources */,
+				08B75A4D1E86071D0080BDC3 /* Frameworks */,
+				08B75A4E1E86071D0080BDC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgeRecognition;
+			productName = AgeRecognition;
+			productReference = 08B75A501E86071E0080BDC3 /* AgeRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08B75A631E86071E0080BDC3 /* AgeRecognitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08B75A7B1E86071E0080BDC3 /* Build configuration list for PBXNativeTarget "AgeRecognitionTests" */;
+			buildPhases = (
+				08B75A601E86071E0080BDC3 /* Sources */,
+				08B75A611E86071E0080BDC3 /* Frameworks */,
+				08B75A621E86071E0080BDC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08B75A661E86071E0080BDC3 /* PBXTargetDependency */,
+			);
+			name = AgeRecognitionTests;
+			productName = AgeRecognitionTests;
+			productReference = 08B75A641E86071E0080BDC3 /* AgeRecognitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08B75A6E1E86071E0080BDC3 /* AgeRecognitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08B75A7E1E86071E0080BDC3 /* Build configuration list for PBXNativeTarget "AgeRecognitionUITests" */;
+			buildPhases = (
+				08B75A6B1E86071E0080BDC3 /* Sources */,
+				08B75A6C1E86071E0080BDC3 /* Frameworks */,
+				08B75A6D1E86071E0080BDC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08B75A711E86071E0080BDC3 /* PBXTargetDependency */,
+			);
+			name = AgeRecognitionUITests;
+			productName = AgeRecognitionUITests;
+			productReference = 08B75A6F1E86071E0080BDC3 /* AgeRecognitionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08B75A481E86071D0080BDC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Sarah Chou";
+				TargetAttributes = {
+					08B75A4F1E86071D0080BDC3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Y29794HLQS;
+						ProvisioningStyle = Automatic;
+					};
+					08B75A631E86071E0080BDC3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Y29794HLQS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 08B75A4F1E86071D0080BDC3;
+					};
+					08B75A6E1E86071E0080BDC3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Y29794HLQS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 08B75A4F1E86071D0080BDC3;
+					};
+				};
+			};
+			buildConfigurationList = 08B75A4B1E86071D0080BDC3 /* Build configuration list for PBXProject "AgeRecognition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08B75A471E86071D0080BDC3;
+			productRefGroup = 08B75A511E86071E0080BDC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08B75A4F1E86071D0080BDC3 /* AgeRecognition */,
+				08B75A631E86071E0080BDC3 /* AgeRecognitionTests */,
+				08B75A6E1E86071E0080BDC3 /* AgeRecognitionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08B75A4E1E86071D0080BDC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B75A5E1E86071E0080BDC3 /* LaunchScreen.storyboard in Resources */,
+				08B75A5B1E86071E0080BDC3 /* Assets.xcassets in Resources */,
+				08B75A591E86071E0080BDC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08B75A621E86071E0080BDC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08B75A6D1E86071E0080BDC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08B75A4C1E86071D0080BDC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B75A561E86071E0080BDC3 /* ViewController.swift in Sources */,
+				08B75A541E86071E0080BDC3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08B75A601E86071E0080BDC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B75A691E86071E0080BDC3 /* AgeRecognitionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08B75A6B1E86071E0080BDC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B75A741E86071E0080BDC3 /* AgeRecognitionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08B75A661E86071E0080BDC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08B75A4F1E86071D0080BDC3 /* AgeRecognition */;
+			targetProxy = 08B75A651E86071E0080BDC3 /* PBXContainerItemProxy */;
+		};
+		08B75A711E86071E0080BDC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08B75A4F1E86071D0080BDC3 /* AgeRecognition */;
+			targetProxy = 08B75A701E86071E0080BDC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08B75A571E86071E0080BDC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08B75A581E86071E0080BDC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08B75A5C1E86071E0080BDC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08B75A5D1E86071E0080BDC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08B75A761E86071E0080BDC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08B75A771E86071E0080BDC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08B75A791E86071E0080BDC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y29794HLQS;
+				INFOPLIST_FILE = AgeRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sarah.AgeRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		08B75A7A1E86071E0080BDC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y29794HLQS;
+				INFOPLIST_FILE = AgeRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sarah.AgeRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		08B75A7C1E86071E0080BDC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y29794HLQS;
+				INFOPLIST_FILE = AgeRecognitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sarah.AgeRecognitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgeRecognition.app/AgeRecognition";
+			};
+			name = Debug;
+		};
+		08B75A7D1E86071E0080BDC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y29794HLQS;
+				INFOPLIST_FILE = AgeRecognitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sarah.AgeRecognitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgeRecognition.app/AgeRecognition";
+			};
+			name = Release;
+		};
+		08B75A7F1E86071E0080BDC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Y29794HLQS;
+				INFOPLIST_FILE = AgeRecognitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sarah.AgeRecognitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AgeRecognition;
+			};
+			name = Debug;
+		};
+		08B75A801E86071E0080BDC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Y29794HLQS;
+				INFOPLIST_FILE = AgeRecognitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sarah.AgeRecognitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AgeRecognition;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08B75A4B1E86071D0080BDC3 /* Build configuration list for PBXProject "AgeRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B75A761E86071E0080BDC3 /* Debug */,
+				08B75A771E86071E0080BDC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08B75A781E86071E0080BDC3 /* Build configuration list for PBXNativeTarget "AgeRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B75A791E86071E0080BDC3 /* Debug */,
+				08B75A7A1E86071E0080BDC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		08B75A7B1E86071E0080BDC3 /* Build configuration list for PBXNativeTarget "AgeRecognitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B75A7C1E86071E0080BDC3 /* Debug */,
+				08B75A7D1E86071E0080BDC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		08B75A7E1E86071E0080BDC3 /* Build configuration list for PBXNativeTarget "AgeRecognitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B75A7F1E86071E0080BDC3 /* Debug */,
+				08B75A801E86071E0080BDC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08B75A481E86071D0080BDC3 /* Project object */;
+}
