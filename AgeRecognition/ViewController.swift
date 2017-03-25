@@ -21,8 +21,33 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     let picker = UIImagePickerController()
     
     @IBAction func shootPhoto(_ sender: UIBarButtonItem) {//
-    
+        if UIImagePickerController.isSourceTypeAvailable(.camera) {
+            picker.allowsEditing = false
+            picker.sourceType = UIImagePickerControllerSourceType.camera
+            picker.cameraCaptureMode = .photo
+            picker.modalPresentationStyle = .fullScreen
+            present(picker,animated: true,completion: nil)
+        } else {
+            noCamera()
+        }
     }
+    
+    func noCamera(){
+        let alertVC = UIAlertController(
+            title: "There is No Camera",
+            message: "Sorry, this device really has no camera",
+            preferredStyle: .alert)
+        let okAction = UIAlertAction(
+            title: "OK",
+            style:.default,
+            handler: nil)
+        alertVC.addAction(okAction)
+        present(
+            alertVC,
+            animated: true,
+            completion: nil)
+    }
+    
     @IBAction func photoFromLibrary(_ sender: UIBarButtonItem) {
         picker.allowsEditing = false
         picker.sourceType = .photoLibrary
