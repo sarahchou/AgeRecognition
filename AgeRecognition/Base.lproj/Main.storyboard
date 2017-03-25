@@ -57,6 +57,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
+                        <outlet property="Toolbar" destination="KIt-ib-HA8" id="m6G-ad-pPp"/>
                         <outlet property="myImageView" destination="1BA-Q1-ekd" id="0b9-Fm-AB4"/>
                         <outlet property="photo" destination="kPg-T1-D2l" id="uma-lW-bDg"/>
                         <outlet property="photoFromLibrary" destination="gn6-3M-pdf" id="Vbx-Kt-2R9"/>
