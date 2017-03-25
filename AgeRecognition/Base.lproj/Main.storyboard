@@ -28,13 +28,15 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KIt-ib-HA8">
                                 <rect key="frame" x="0.0" y="524" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.69008884893991995" green="0.34200438667572325" blue="0.95055456606217614" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <items>
-                                    <barButtonItem title="Photos" id="kPg-T1-D2l">
+                                    <barButtonItem title="Photos" id="kPg-T1-D2l" userLabel="Photo">
                                         <color key="tintColor" red="0.20156939549999742" green="0.16798390046225481" blue="0.95055456606217614" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="db4-Ji-fbP"/>
                                     <barButtonItem title="Library" id="gn6-3M-pdf"/>
                                 </items>
+                                <color key="barTintColor" red="0.45483134774079764" green="0.94049546630051817" blue="0.90193360076650986" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                             </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PIZZa" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1dz-j1-q2I">
                                 <rect key="frame" x="16" y="28" width="288" height="33.5"/>
@@ -49,9 +51,9 @@
                     </view>
                     <connections>
                         <outlet property="myImageView" destination="1BA-Q1-ekd" id="0b9-Fm-AB4"/>
-                        <outlet property="photo" destination="KIt-ib-HA8" id="gpI-2e-SjV"/>
-                        <outlet property="photoFromLibrary" destination="KIt-ib-HA8" id="gKP-S2-THN"/>
-                        <outlet property="shootPhoto" destination="kPg-T1-D2l" id="7Gg-6Y-X2T"/>
+                        <outlet property="photo" destination="kPg-T1-D2l" id="uma-lW-bDg"/>
+                        <outlet property="photoFromLibrary" destination="gn6-3M-pdf" id="Vbx-Kt-2R9"/>
+                        <outlet property="shootPhoto" destination="kPg-T1-D2l" id="sBO-eS-23B"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

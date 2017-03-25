@@ -11,9 +11,15 @@ import UIKit
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     @IBOutlet weak var myImageView: UIImageView!
+    
+    @IBOutlet weak var photo: UIBarButtonItem!
+    @IBOutlet weak var shootPhoto: UIBarButtonItem!
+    
+    @IBOutlet weak var photoFromLibrary: UIBarButtonItem!
+    
     let picker = UIImagePickerController()
     
-    @IBAction func shootPhoto(_ sender: UIBarButtonItem) {
+    @IBAction func shootPhoto(_ sender: UIBarButtonItem) {//
     
     }
     @IBAction func photoFromLibrary(_ sender: UIBarButtonItem) {
@@ -37,7 +43,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
 
     //MARK: - Delegates
-   func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
+   private func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
         let chosenImage = info[UIImagePickerControllerOriginalImage] as! UIImage //2
         myImageView.contentMode = .scaleAspectFit //3
         myImageView.image = chosenImage //4
