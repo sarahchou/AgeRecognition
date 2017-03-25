@@ -34,7 +34,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     func noCamera(){
         let alertVC = UIAlertController(
-            title: "haha sorry No Camera",
+            title: "No Camera",
             message: "Sorry, this device has no camera",
             preferredStyle: .alert)
         let okAction = UIAlertAction(
