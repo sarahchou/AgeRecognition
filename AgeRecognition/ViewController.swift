@@ -12,6 +12,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 
     @IBOutlet weak var myImageView: UIImageView!
     
+    @IBOutlet weak var sunsetBackground: UIImageView!
     @IBOutlet weak var Photos: UIToolbar!
     @IBOutlet weak var photo: UIBarButtonItem!
     @IBOutlet weak var shootPhoto: UIBarButtonItem!
